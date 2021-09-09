@@ -1,0 +1,29 @@
+{
+  "name": "carnival_cruises",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "$(npm bin)/cypress open",
+    "cypress:test": "rm -rf cypress/multiple-reporter/ ; rm -rf cypress/cucumber-json/ ; mkdir -p cypress/screenshots ; $(npm bin)/cypress run -b chrome --headless ; node multiple-report.js"
+  },
+  "private": true,
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "cypress-browser-permissions": "^1.0.5",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "cypress-real-events": "^1.5.0",
+    "cypress-waitfor": "^1.1.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0"
+  }
+}

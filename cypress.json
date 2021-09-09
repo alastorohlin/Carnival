@@ -1,0 +1,12 @@
+{
+    "base_url": "https://www.carnival.com/",
+    "env": {
+      "TAGS": "not @ignored"
+    },
+    "testFiles": "**/*.feature",
+    "retries": {
+      "runMode": 1,
+      "openMode":1
+    },
+    "integrationFolder": "FunctionalTest/"
+  }

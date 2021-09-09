@@ -5,7 +5,3 @@ yarn.lock
 
 # Mac
 .DS_Store
-
-# Cypress
-/Cypress/videos
-/Cypress/screenshots

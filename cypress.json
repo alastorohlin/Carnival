@@ -1,6 +1,12 @@
 {
-    "base_url": "https://www.carnival.com/",
+    "baseUrl": "https://www.carnival.com/",	
     "env": {
+      "browserPermissions": {
+        "geolocation": "block",
+        "camera": "block",
+        "microphone": "block",
+        "cookies": "block"
+      },
       "TAGS": "not @ignored"
     },
     "testFiles": "**/*.feature",
@@ -8,5 +14,6 @@
       "runMode": 1,
       "openMode":1
     },
+    "pageLoadTimeout": 10000,
     "integrationFolder": "FunctionalTest/"
   }

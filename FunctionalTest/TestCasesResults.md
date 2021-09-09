@@ -121,3 +121,20 @@ Story: UserStory#1
 Attachments:
 
 ![Lines Safari](Images/SearchIphone.png)
+
+<br>
+
+Summary: Filter slide don't show correctly (Desktop)
+
+Scenario: Filter search by price
+
+Description: The slider for filter by pricing not fully visible when reducing browser size
+
+Priority: Major 
+
+Story: UserStory#1
+
+Attachments:
+
+![SlideError](Images/SlideError.png)
+![SlideError](Images/SlideError2.png)

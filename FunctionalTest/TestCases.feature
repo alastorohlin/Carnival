@@ -18,11 +18,11 @@ Feature: Carnival Test Cases
     When the user sorts by price
     Then Then the search results are sorted according to the selected order
 
-    @UserStory2 @ignored
+    @UserStory2
   Scenario: Select sailing plan
     When the user selects a sailing plan
     Then the user will be able to read ABOUT each day
-    And the button "BOOK NOW" will be placed into the page
+    And the button BOOK NOW will be placed into the page
 
     @UserStory3 @ignored
   Scenario: Select staterooms quantity
